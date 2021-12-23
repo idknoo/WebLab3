@@ -8,7 +8,9 @@
       xmlns:h="http://java.sun.com/jsf/html" xmlns:p="http://primefaces.org/ui" xmlns:f="http://java.sun.com/jsf/core">
 
 <h:head>
-    <title>MainPage</title>
+    <title>Main</title>
+    <link rel="shortcut icon" type="image/x-icon" href="#{request.contextPath}/img/favicon.ico"/>
+<!--    <link rel="icon" href="img/favicon.ico"/>-->
     <link href="css/style.css" rel="stylesheet" type="text/css"/>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&amp;display=swap" rel="stylesheet"/>
 </h:head>
@@ -104,6 +106,7 @@
             <div id="rDiv" class="bordering centering standardColor menuObjects">
                 <span class="title">Параметр R</span>
                 <div id="Rparent">
+
                     <p:spinner id="R" validator="rValidator" value="#{managerBean.r}"
                                min="1" max="5" stepFactor="1"/>
                     <h:message styleClass="errColor" for="R"/>

@@ -52,22 +52,6 @@ public class ManagerBean {
     public String generateTime(){
         time = new Date().toString();
         return Returns.TO_START.toString();
-
-//        String input = new Date();
-//        DateTimeFormatter f = DateTimeFormatter.ofPattern ( "d MMM uuuu" );
-//        f = f.withLocale ( new Locale("ru"));
-//
-//        LocalDate ld = LocalDate.parse ( new Date().toString() , f );
-//        String output = ld.format ( f );
-//
-//        return output;
-//
-////        String input = "8 Aug 2016";
-////        DateTimeFormatter f = DateTimeFormatter.ofPattern ( "d MMM uuuu" );
-////        f = f.withLocale ( Locale.US );
-////
-////        LocalDate ld = LocalDate.parse ( input , f );
-////        String output = ld.format ( f );
     }
 
     public double getX() {

@@ -8,7 +8,7 @@ function sleep(ms) {
 }
 async function demo() {
     while(true) {
-        await sleep(5000);
+        await sleep(12000);
         sentAjax();
     }
 }

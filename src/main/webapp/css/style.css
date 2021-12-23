@@ -1,7 +1,7 @@
 body {
     font-size: 16px;
     font-family: 'Montserrat', sans-serif;
-    /*background: linear-gradient(-45deg, rgba(233, 127, 94, 0.63), rgba(196, 101, 219, 0.62), rgba(92, 166, 186, 0.5), rgba(224, 16, 212, 0.5));*/
+    /*background: linear-gradient(deg, rgba(233, 127, 94, 0.63), rgba(196, 101, 219, 0.62), rgba(92, 166, 186, 0.5), rgba(224, 16, 212, 0.5));*/
     background-size: 400% 400%;
     animation: gradient 10s ease infinite;
     color: white;
@@ -11,7 +11,7 @@ body {
 }
 
 .backgroundColor {
-    background: linear-gradient(-45deg, rgba(233, 127, 94, 0.63), rgba(196, 101, 219, 0.62), rgba(92, 166, 186, 0.5), rgba(224, 16, 212, 0.5));
+    background: linear-gradient(-90deg, rgba(233, 127, 94, 0.63), rgba(196, 101, 219, 0.62), rgba(92, 166, 186, 0.5), rgba(224, 16, 212, 0.5));
 
 }
 
@@ -234,7 +234,7 @@ button {
     bottom: 0;
     right: 0;
     top: 60px;
-    width: 60%;
+    width: 50%;
     height: 854px;
     overflow-y: scroll;
     margin-left: 718px;
