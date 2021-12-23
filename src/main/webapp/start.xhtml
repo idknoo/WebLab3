@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html" xmlns:f="http://java.sun.com/jsf/core">
+
+<h:head>
+    <title>W3</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css"/>
+
+</h:head>
+
+<h:body styleClass="backgroundColor1 centering">
+    <div class="ocean">
+        <div class="wave"></div>
+        <div class="wave"></div>
+    </div>
+    <h:outputLabel styleClass="title centering">Дворянчикова Дарья P3233</h:outputLabel>
+    <h:form styleClass="centering">
+        <div>
+            <a class="btnflip" href="#!">
+                <span class="btnflip-item btnflip__front">Click</span>
+                <span class="btnflip-item btnflip__center"></span>
+                <h:commandButton action="toMain" class="btnflip-item btnflip__back" value="Here"/>
+            </a>
+        </div>
+        <h:outputLabel id="timer" styleClass="title centering" value="#{managerBean.time}"/>
+        <div id="restimeParent">
+            <h:commandButton action="#{managerBean.generateTime}" value="restime" style="visibility: hidden">
+                <f:ajax execute="@all" render="timer"/>
+            </h:commandButton>
+        </div>
+    </h:form>
+    <script src="js/startScript.js"/>
+</h:body>
+</html>
