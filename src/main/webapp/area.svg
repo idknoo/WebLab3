@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
-  <rect x="150" y="250" width="100" height="200" style="fill: rgb(115, 111, 250);"/>
-  <path style="fill: rgb(115, 111, 250);" transform="matrix(0.403203, 0, 0, 0.403203, 146.511078, 111.970291)" d="M 8.653 342.333 A 248.014 248.014 0 0 1 256.667 94.319 L 256.667 342.333 Z" bx:shape="pie 256.667 342.333 0 248.014 270 360 1@b9a73745"/>
-  <path d="M 276.115 218.637 L 476.115 418.637 L 276.115 418.637 L 276.115 218.637 Z" style="fill: rgb(115, 111, 250);" transform="matrix(-0.000086, 1, -1, -0.000086, 668.677917, -26.082752)" bx:shape="triangle 276.115 218.637 200 200 0 0 1@d50c9621"/>
+  <rect x="50" y="250" width="200" height="100" style="fill: rgb(115, 111, 250);"/>
+  <path style="fill: rgb(115, 111, 250);"
+        transform="matrix(0.403203, 0, 0, 0.403203, 146.511078, 111.970299)"
+        d="M 255 590 A 248 248 0 0 0 504 343 L 256 342 Z"
+        bx:shape="pie 256.667 342.333 0 248.014 270 360 1@b9a73745"/>
+  <path d="M 276.115 218.637 L 276.115 418.637 L 76.115 418.637 L 276.115 218.637 Z"
+        style="fill: rgb(115, 111, 250);"
+        transform="matrix(-0.000086, 1, -1, -0.000086, 668.677917, -26.082752)"
+        bx:shape="triangle 276.115 218.637 200 200 0 0 1@d50c9621"/>
   <rect y="249" width="500" height="2" style=""/>
   <rect x="249" width="2" height="500" style=""/>
   <rect x="449" y="245" width="2" height="10" style=""/>
